@@ -14,7 +14,7 @@ describe LBTT do
     property = Property.new(150000)
     lbtt = LBTT.new(property)
     lbtt.calculate_tax
-    expect(lbtt.tax).to be(100)
+    expect(lbtt.tax).to be(100.00)
   end
 
 end
