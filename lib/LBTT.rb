@@ -1,7 +1,8 @@
 class LBTT
-  attr_reader :tax
+  attr_reader :tax, :property
 
-  def initialize
+  def initialize(property)
+    @property = property
     @tax = 0
   end
 
