@@ -1,7 +1,9 @@
+require 'LBTT'
+
 describe LBTT do
 
   it "initializes with tax" do
-    lbtt = new LBTT()
+    lbtt = LBTT.new
     expect(lbtt.tax).to be()
   end
 
